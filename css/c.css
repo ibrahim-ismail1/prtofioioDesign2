@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ header{
+    background-image:url(../alfaroukroute_github_io/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative ;
+    
+    
+    
+}
+.Home-content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0,0,.6);
+    position: absolute;
+    top: 0;
+    color: white;
+    
+  
+    
+}
+
+.icons i {
+    padding: 10px;
+}
+.nav-c
+{
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
+}
+/* about */
+.space{
+    padding: 70px;
+}
+.bg-text{
+    background-color: #1c1c1c;
+    color: antiquewhite;
+    position: relative;
+
+    
+
+}
+.pp{
+    position: absolute;
+    right: 3%;
+    top: 15%;
+}
+
+ .btn1{
+    background-color: #1C1C1C;
+    transition: 1s;
+}
+.btn2{
+    background-color: white;
+    transition: 1s;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2:hover{
+    background-color: #1C1C1C;
+    color: antiquewhite;
+
+}
+/* services */
+.services{
+    
+    background-color: #F7F7F7;
+    text-align: center;
+}
+.item{
+    background-color: white;
+
+}
+.bg-i{
+    background-color: #F7F7F7;
+    transition: .5s;
+   
+
+}
+.bg-i:hover{
+    background-color: #1C1C1C;
+    color: #F7F7F7;
+
+}
+.item{
+    position: relative;
+    /* background-color: aqua; */
+    
+}
+.img-overlay{
+    background-color:rgba(255, 255, 255, 0.567);
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+   opacity: 0;
+    transition: 1s;
+}
+.img-overlay:hover{
+    content: '';
+    opacity: 1;
+    
+    
+}
+.img-overlay i{
+    color: #F7F7F7;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+.work{
+    background-color: #F6F6F6;
+    
+}
+.cur-img{
+    width: 90px;
+}
+.carousel-indicators  [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
